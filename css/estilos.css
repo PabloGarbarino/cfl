@@ -37,5 +37,29 @@
     gap: 16px;
     justify-content: center;
     align-items: center;
-    
-  }
+}
+
+/* Media queries */
+@media only screen and (max-width: 375px) {
+    #logo {
+        margin-left: 45px;
+        height: 100px;
+        width: 130px;
+    }
+
+    .layoutIndex {
+        width: 500px;
+        height: 108px;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        justify-content: center;
+        align-items: center;
+      
+    }
+
+    img{
+        width: 120px;
+        height: 300px;
+    }
+}
