@@ -1,46 +1,121 @@
 .contenedor-logo,
+
 .menu-principal {
     margin: auto;
     text-align: center;
 }
 
-.menu-principal li {
-    float: none;
+
+.menu-principal {
+    position: relative;
+    overflow: hidden;
+    width: 70%;
+    margin: 10px auto 10px;
+    border-radius: 8px;
+    background: #86bfee;
+    text-align:center;
+    }
+    
+    .menu-principal a {
     display: inline-block;
-}
+    width: 25%; /* 100% dividido por el número de elementos del menú*/
+    box-sizing: border-box;
+    padding: 20px 10px;
+    color: rgb(rgb(#fff));
+    text-decoration: none;
+    }
 
+ 
 #logo {
-    margin-left: 45px;
-    height: 120px;
-    width: 180px;
+    margin-left: 85px;
+    height: 360px;
+    width: 520px;
 }
 
-#cursoInformatica {
-    width: 300px;
-    height: 200px;
+#SVlogo
+{
+    float: none;
+   
+}
+
+.parrafo
+{
+    text-align: center;
+
+} 
+
+.tituloQS
+{
+    text-align: center;
+
+}
+
+
+#Yeso
+{
+    width: 500px;
+    height: 400px;
+}
+
+#CocineroComedor
+{
+    width: 500px;
+    height: 400px;
+ }
+
+#Soldador
+{
+    width: 500px;
+    height: 400px;
+
 }
 
 .layout {
     width: 1366px;
     height: 768px;
-
     display: grid;
-    grid-template-rows: repeat(2, 240px);
-    grid-template-columns: repeat(2, 240px);
+    grid-template-rows: repeat(2, 300px);
+    grid-template-columns: repeat(2, 300px);
     gap: 8px;
+    justify-content: center
+
+    
 }
 
-.layoutIndex {
-    width: 1366px;
-    height: 768px;
+.layoutContacto
+{
+     
+    width: 1920px;
+    height: 1080px;
+  
     display: flex;
+    flex-direction: column;
     gap: 16px;
+  
     justify-content: center;
     align-items: center;
 }
 
+
+
+.layoutIndex {
+    width: 1920px;
+    height: 1080px;
+  
+    display: flex;
+    gap: 16%;
+    flex-wrap: wrap;
+  
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+
+
+/*====================================================*/
+
 /* Media queries */
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
     #logo {
         margin-left: 45px;
         height: 100px;
@@ -58,8 +133,12 @@
       
     }
 
-    img{
-        width: 120px;
-        height: 300px;
-    }
+}
+
+@media only screen and (max-width: 768px) {
+
+}
+
+@media only screen and (min-width: 769px) {
+
 }
