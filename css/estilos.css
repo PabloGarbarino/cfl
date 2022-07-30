@@ -195,4 +195,42 @@
 
 
 
-@media only screen and (min-width: 769px) {}
+@media only screen and (max-width:1325px)  {
+    #logo {
+        margin-left: 45px;
+        height: 100px;
+        width: 130px;
+    }
+
+    .layoutIndex {
+        width: 500px;
+        height: 108px;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .menu-principal {
+        position: relative;
+        overflow: hidden;
+        width: 90%;
+        margin: 10px auto 10px;
+        border-radius: 8px;
+        background: #86bfee;
+        text-align: center;
+    }
+    .layout {
+        width: 100%;
+        height: 100%;
+        margin-right: auto;
+        display: block;
+    }
+
+    #imgCentro {
+        width: 100%;
+        height: auto;
+    }  
+}
