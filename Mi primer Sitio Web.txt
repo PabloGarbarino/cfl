@@ -1,0 +1,10 @@
+Alumno: Pablo Garbarino
+
+Buenas noches Marcelo, hago la entrega para cumplir con el formalismo de las fechas, la realidad es recien hoy pude ponerme a practicar lo que veniamos haciendo en las clases. 
+Faltan cosas a la pagina, no llegue a realizar las media queries. Recien esta semana que tengo vacaciones voy a poder ponerme al dia con las clases. De igual forma, sigo metiendo mano
+hasta llegar a realizar todo. Si es posible, en unos dias actualizo la entrega.
+Ya pude arreglar en el trabajo para poder asistir a las clases los lunes y los miercoles.
+
+Saludos y gracias por el conocimiento compartido.
+ 
+Github: https://github.com/PabloGarbarino/cfl.git
